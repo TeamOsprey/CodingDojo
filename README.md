@@ -13,4 +13,5 @@
   - Good use of Test Cases to make unit tests cleaner
 - Suggestions:
   - Starting with a discussion on what we want to do in more detail
+  - Start the session as long as at least two people joined
 - Next session we will continue with LCD Digit kata to refactor it
