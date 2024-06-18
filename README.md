@@ -1,8 +1,8 @@
 # Coding Dojo Meeting Notes
 
 ## 2024-06-18
-- Participants: Nir , Saeed
-- We continued working on the previous session's exrecise: [Fizz Buzz Plus](https://cyber-dojo.org/kata/edit/fRZ2ZZ)
+- Participants: Nir, Saeed
+- We continued working on the previous session's exercise: [Fizz Buzz Plus](https://cyber-dojo.org/kata/edit/fRZ2ZZ)
 - We started a new kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
 - Next session we will continue with Number Names kata.
 
