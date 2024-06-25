@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2024-06-25
+- Participants: Nir, Saeed, Mark
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- We tried to find an algorithm that covers the larger numbers without making the dictionary gets too large or introduce new variables for every positions of digits
+- Next session we will continue with Number Names kata and try to find the answers.
+
 ## 2024-06-18
 - Participants: Nir, Saeed
 - We continued working on the previous session's exercise: [Fizz Buzz Plus](https://cyber-dojo.org/kata/edit/fRZ2ZZ)
