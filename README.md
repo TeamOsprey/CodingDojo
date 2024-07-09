@@ -1,5 +1,19 @@
 # Coding Dojo Meeting Notes
 
+## 2024-07-09
+- Participants: Nir, Saeed, Mark
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Next session:
+   - We are going to brain storm on the algorithm, continue with our conversation about using position
+   - We agreed to convert the received number to string and reverse it to get the positions right
+   - We decided to at first focus on the first 3 positions (ones, tens, hundresd)
+   - So far this is what we think would be the way to go:
+    ```
+     423 = [4,2,3] ==revers==> [3,2,4]
+     - pos 0: 3 = three
+     - pos 1: 2*10 = twenty  
+     - pos 2: 4 four + hundred
+
 ## 2024-06-25
 - Participants: Nir, Saeed, Mark
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
