@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2024-07-16
+- Participants: Nir, Saeed, Mark
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Next session:
+   - a long term solution for spacer
+     - Mark suggested that starting from ones going up could be a solution to check if the result is an empty string before adding a spacer
+
 ## 2024-07-09
 - Participants: Nir, Saeed, Mark
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
