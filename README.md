@@ -13,7 +13,7 @@
 - Next session:
    - We are going to brain storm on the algorithm, continue with our conversation about using position
    - We agreed to convert the received number to string and reverse it to get the positions right
-   - We decided to at first focus on the first 3 positions (ones, tens, hundresd)
+   - We decided to focus on the first 3 positions (ones, tens, hundreds)
    - So far this is what we think would be the way to go:
     ```
      423 = [4,2,3] ==revers==> [3,2,4]
