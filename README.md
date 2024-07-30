@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2024-07-30
+- Participants: Nir, Saeed, Marc
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- We tried loop which seems to be the right way to go. However, we agreed that was a big changes and we have to step back and build the logic for first three positions before jumping to loop solution. We decided to make the existing tests work without loop then during refactoring change the logic to use loop.
+- We ended in RED with index out of bound error.
+- Next session:
+  - We will need to fix the index out of bound error first, maybe by focusing on tens tests first. And check for the length of the string before processing the next positions.
+    
 ## 2024-07-16
 - Participants: Nir, Saeed, Mark
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
