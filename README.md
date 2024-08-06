@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2024-08-06
+- Participants: Nir, Saeed, Mark, Joel
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Nir believes that use of TDD helped us to stay focused on smaller issues and move faster
+- Next session:
+  - Focus on replacing the redundant code with call of GetName method
 ## 2024-07-30
 - Participants: Nir, Saeed, Marc
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
