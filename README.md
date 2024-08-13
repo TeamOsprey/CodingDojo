@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2024-08-13
+- Participants: Nir, Saeed, Mark, Joel
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Next session:
+  - Introduce a new methos, GetSpacer, to return the spacer based on the position and take that responsibility out of GetName
+  - Introduce a new method to exttact the code we have in Ones, Tens,... then we will be ready to add the loop
 ## 2024-08-06
 - Participants: Nir, Saeed, Mark, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
