@@ -1,5 +1,17 @@
 # Coding Dojo Meeting Notes
 
+## 2024-08-20
+- Participants: Nir, Mark, Joel
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Next session:
+  - Refactoring:
+    - Rename all pos variables to position
+    - Use switch instead of if in GetName
+    - Consider an enum for values of position Ones=0, Tens=1, Hundreds=2
+  - More test cases:
+    - Thousands
+    - Millions
+
 ## 2024-08-13
 - Participants: Nir, Saeed, Mark, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
