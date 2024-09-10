@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2024-09-10
+- Participants: Saeed, Joel
+- We introduced the idea of triplets, i.e., 3-digit chunks
+- Next session:
+  - Get failing test to pass: [TestCase(2000, "two thousand")]
+  - Rename GetNameOfTriplet as GetNameOfElementOfTriplet or similar
+  - Extract inner loop that gets the name of the entire triplet
+  - Move triplet index variable into for loop (instead of separate variable outside foreach)
+
 ## 2024-09-03
 - Participants: Saeed, Mark, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
@@ -9,7 +18,6 @@
   - Add millions to test
   - Maybe checking on how to use dotnet core in cyber-dojo, as we realized new syntax for switch is not accepted
     
-
 ## 2024-08-20
 - Participants: Nir, Mark, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
