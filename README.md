@@ -10,6 +10,8 @@
   - Rename GetNameOfTriplet as GetNameOfElementOfTriplet or similar
   - Extract inner loop that gets the name of the entire triplet
   - Move triplet index variable into for loop (instead of separate variable outside foreach)
+  - Ask GPT if we can simplify and make more readable the GetTriplets function. (Or at least we should read and try to understand
+    the code better, even if all tests are passing.)
 
 ## 2024-09-03
 - Participants: Saeed, Mark, Joel
