@@ -2,6 +2,7 @@
 
 ## 2024-09-10
 - Participants: Saeed, Joel
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
 - We introduced the idea of triplets, i.e., 3-digit chunks. (We used GPT to generate the GetTriplets function for us.)
 - We also learned that cyber-dojo uses Mono rather than .NET Core (and an older version of Mono), so we think the switch
   expression syntax won't work (so we have to use the switch statement instead).
