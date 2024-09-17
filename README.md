@@ -1,5 +1,15 @@
 # Coding Dojo Meeting Notes
 
+## 2024-09-17
+- Participants: Saeed, Joel
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Tests are passing for cases through XX thousand; not yet testing XXX thousand or millions, etc.
+- We renamed readme.txt as docs.readme.txt, so it sorts to the bottom of the file list, and when
+  the navigator and driver switch roles, the driver sees the desired code file right away.
+- Next session:
+  - See TODO comment(s)
+  - See 2024-09-10 notes about GetTriplets function (review code, etc.)
+
 ## 2024-09-10
 - Participants: Saeed, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
