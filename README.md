@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2024-09-24
+- Participants: Saeed, Joel, Mark
+- We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+- Tests are passing for cases through XXX thousand; not yet testing millions, etc.
+- We moved many methods to a static Triplets class
+- Next session:
+  - See TODO comment(s)
+
 ## 2024-09-17
 - Participants: Saeed, Joel
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
