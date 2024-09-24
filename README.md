@@ -7,6 +7,7 @@
 - We moved many methods to a static Triplets class
 - Next session:
   - See TODO comment(s)
+  - Consider whether we want to continue with this kata, or do something new.
 
 ## 2024-09-17
 - Participants: Saeed, Joel
