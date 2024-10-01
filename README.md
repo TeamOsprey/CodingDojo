@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2024-10-01
+- Participants: Saeed, Joel
+- We continued compared last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
+  with a fork of what GPT created, where we added some todo comments: [Fork](https://cyber-dojo.org/kata/edit/h4AcpH)
+- Next session:
+  - See TODO comment(s), especially in the fork, i.e., [Fork](https://cyber-dojo.org/kata/edit/h4AcpH)
+  - Consider whether we want to continue with this kata, or do something new.
+  
 ## 2024-09-24
 - Participants: Saeed, Joel, Mark
 - We continued with last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
