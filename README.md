@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2024-10-22
+- Participants: Saeed, Mark, Tasneem
+- We conducted a Coding Dojo orientation for the new member of our team, Tasneem
+- We practiced TDD using the FizzBuzz kata
+  
 ## 2024-10-01
 - Participants: Saeed, Joel
 - We continued compared last session's kata: [Number Names](https://cyber-dojo.org/kata/edit/7mlMzJ)
