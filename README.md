@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2024-10-29
+- Participants: Saeed, Mark, Tasneem
+- We started working on a new kata: [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y)
+- Next session:
+  - Try a 3 by 3 grid
+  - Go incerementally, start with all dead cells, then only one alive cell and so on
+    
 ## 2024-10-22
 - Participants: Saeed, Mark, Tasneem
 - We conducted a Coding Dojo orientation for the new member of our team, Tasneem
