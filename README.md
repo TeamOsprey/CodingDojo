@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2024-11-12
+-Participants: Saeed, Mark, Tasneem
+- We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
+- Next session
+    - Test situation where at least one Cell survives.
+    - Test Single row with all live cells.
+    - Expand to two rows for testing, implementation.
+    - Consider our previous approach and look for options to stay more in line with TDD.
+  
 ## 2024-11-05
 - Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
