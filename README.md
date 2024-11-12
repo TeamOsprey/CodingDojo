@@ -4,9 +4,9 @@
 - Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
 - Next session
- - We will try to build rules one at a time.
- - We can create a method to return all adjacent cells in a string, then based on the number of live cells create the output
- - We can go incrementaly by working on the adjacent cells of one row
+  - We will try to build rules one at a time.
+  - We can create a method to return all adjacent cells in a string, then based on the number of live cells create the output
+  - We can go incrementaly by working on the adjacent cells of one row
 
 ## 2024-10-29
 - Participants: Saeed, Mark, Tasneem
