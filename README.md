@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2024-11-19
+-Participants: Saeed, Mark, Tasneem
+- We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
+- we talked about watching a video of other people's apprioach to solve this kata in TDD (after we are done with it).
+- Next session
+  - Discuss how to modify GetAdjacentCells, to support the second row of the grid, incrementally
+  - We are red now, first we need to go to green, which will cover the implementation of the second rule
+  
 ## 2024-11-12
 -Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
