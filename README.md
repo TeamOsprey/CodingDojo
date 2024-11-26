@@ -1,15 +1,24 @@
 # Coding Dojo Meeting Notes
 
-## 2024-11-19
--Participants: Saeed, Mark, Tasneem
+## 2024-11-26
+- Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
-- we talked about watching a video of other people's apprioach to solve this kata in TDD (after we are done with it).
+- We spent most of our time trying to fix the issues related to two dimensional array
+- We talked about how to implement GetAdjacentCells method for multi rows grid. We talked about either doing it in one shot or splitting it to top, bottom, and current rows.
+- Next session
+  - Start with reviewing multi dimensional array in .NET (read a document or watch a video)
+  - Change i and j to col and row in GetAdjacentCells
+
+## 2024-11-19
+- Participants: Saeed, Mark, Tasneem
+- We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
+- we talked about watching a video of other people's approach to solve this kata in TDD (after we are done with it).
 - Next session
   - Discuss how to modify GetAdjacentCells, to support the second row of the grid, incrementally
   - We are red now, first we need to go to green, which will cover the implementation of the second rule
   
 ## 2024-11-12
--Participants: Saeed, Mark, Tasneem
+- Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
 - Next session
     - Test situation where at least one Cell survives.
