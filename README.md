@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2024-12-10
+- Participants: Saeed, Mark, Tasneem
+- We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
+- Next session:
+  - We need to fix the failing test, by supporting more than 2 rows.
+  - Discuss how to refactor GetAdjacentCells
+  - Watch video of TDD solution for this kata, or Mars Rover kata
+
 ## 2024-11-26
 - Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
