@@ -3,7 +3,7 @@
 ## 2024-12-10
 - Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
-- We read about arrays in C#. We realized jagged array, which we used in our code, is not the best choice for this kata. If we are going to redo this kata it's better to go with multidimensional array.
+- We read about arrays in C#. We realized jagged array, which we used in our code, is not the best choice for this kata mainly because wedon't need rows of different lengths. If we are going to redo this kata it's better to go with multidimensional array.
 - __Jagged Arrays__
    - __Variable Row Lengths:__ Use jagged arrays when you need rows of different lengths. For example, if you are storing data where each row can have a different number of elements, a jagged array is more efficient.
    - __Memory Efficiency:__ They can be more memory-efficient if the data structure is sparse or if rows vary significantly in size.
