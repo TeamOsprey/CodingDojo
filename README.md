@@ -1,6 +1,6 @@
 # Coding Dojo Meeting Notes
 
-## 2024-12-10
+## 2024-12-17
 - Participants: Saeed, Mark, Tasneem, Richard
 - We talked about how Coding Dojo meetings are run
 - We reviewed the [three rules of TDD by Robert Martin](https://jhall.io/archive/2021/03/01/the-3-rules-of-tdd-plus-bonus-rule/https://jhall.io/archive/2021/03/01/the-3-rules-of-tdd-plus-bonus-rule/)
