@@ -1,6 +1,15 @@
 # Coding Dojo Meeting Notes
 
 ## 2024-12-10
+- Participants: Saeed, Mark, Tasneem, Richard
+- We talked about how Coding Dojo meetings are run
+- We reviewed the [three rules of TDD by Robert Martin](https://jhall.io/archive/2021/03/01/the-3-rules-of-tdd-plus-bonus-rule/https://jhall.io/archive/2021/03/01/the-3-rules-of-tdd-plus-bonus-rule/)
+- We worked on [FizzBuzz](https://cyber-dojo.org/kata/edit/ub1Kvs) kata to demo TDD and our meeting structure to Richard
+- Next session:
+  - If Richard or any other new members join us we will choose a simpla kata
+  - Otherwise we will continue with Game Of Life kata
+
+## 2024-12-10
 - Participants: Saeed, Mark, Tasneem
 - We continued with [Game of Life](https://cyber-dojo.org/kata/edit/fd0u7Y) kata
 - We read about arrays in C#. We realized jagged array, which we used in our code, is not the best choice for this kata mainly because wedon't need rows of different lengths. If we are going to redo this kata it's better to go with multidimensional array.
