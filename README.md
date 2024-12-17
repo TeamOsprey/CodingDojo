@@ -4,4 +4,4 @@ Coding Dojo is inspired by concepts from Dave Thomas’ blogs, known as Pragmati
 ## Meetings
 Every Tuesday at 9:15 am (Atlantic Time) for 1 hour and 15 mins.
 
-[Meeting Notes](../Meetings/Notes.md)
+[Meeting Notes](Meetings/Notes.md)
