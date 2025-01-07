@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-01-07
+- Participants: Saeed, Mark, Tasneem, Richard
+- We worked on this kata: https://cyber-dojo.org/kata/edit/bu88YG
+- Tasneem suggested to review our tests, to find out if we could choose better tests that would have led us to the right path
+- Next session:
+  - Discussing what we could do better to stay in right path when following TDD rules
+  - Continue this session's kata
+    
 ## 2024-12-17
 - Participants: Saeed, Mark, Tasneem, Richard
 - We talked about how Coding Dojo meetings are run
