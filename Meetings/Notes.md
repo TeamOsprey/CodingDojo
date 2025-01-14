@@ -1,6 +1,14 @@
 # Coding Dojo Meeting Notes
 
 ## 2025-01-07
+- Participants: Saeed, Mark, Tasneem
+- We worked on this kata: https://cyber-dojo.org/kata/edit/bu88YG
+- Tests passed after using string sort but failed after we added new test cases from Readme
+- The problem we are dealing with now is [5, 50] returns 505 instead of 550. We think by writing a custom comparer, and padding the last digit of smaller numbers with the same first digit and size of the lengthier number we can fix this copare issue.
+- Next session:
+  - We will decide to either continue with this kata or start a new one, depends on if a new member joins us
+
+## 2025-01-07
 - Participants: Saeed, Mark, Tasneem, Richard
 - We worked on this kata: https://cyber-dojo.org/kata/edit/bu88YG
 - Tasneem suggested to review our tests, to find out if we could choose better tests that would have led us to the right path
