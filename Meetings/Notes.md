@@ -1,6 +1,13 @@
 # Coding Dojo Meeting Notes
 
-## 2025-01-07
+## 2025-01-21
+- Participants: Saeed, Mark, Tasneem, Richard, Nir
+- We continued working on this kata: https://cyber-dojo.org/kata/edit/bu88YG
+- We found it challenging to come up with small steps to take us to the right solution. We mostly tried to solve it with algorithm challenge approach. We tried ChatGPT and its given solution was similar to what we discussed but failed to compile.
+- Next session:
+  - We will try a new kata
+    
+## 2025-01-14
 - Participants: Saeed, Mark, Tasneem
 - We worked on this kata: https://cyber-dojo.org/kata/edit/bu88YG
 - Tests passed after using string sort but failed after we added new test cases from Readme
