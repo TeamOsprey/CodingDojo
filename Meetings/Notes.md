@@ -1,6 +1,6 @@
 # Coding Dojo Meeting Notes
 
-## 2025=01-28
+## 2025-01-28
 - Participants: Saeed, Tasneem, Richard, Nir
 - We started working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
 - We used this repository for this kata: https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/main/GildedRoseRequirements.md
