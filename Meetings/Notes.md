@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-02-04
+- Participants: Saeed, Tasneem, Mark
+- We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
+- We refactored the unit tests and made a one to one mapping of test cases with the requirements
+- Next session
+  - We can refactor unoit tests, moving all Quality test cases to the first test, and include SellIns
+  - Revisiting our approach. Shall we continue with implementing new methods based on the rules, or simplify the conditions step by step
+  - Rename methods to verb instead of noun
 ## 2025-01-28
 - Participants: Saeed, Tasneem, Richard, Nir
 - We started working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
