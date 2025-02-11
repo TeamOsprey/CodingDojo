@@ -1,5 +1,15 @@
 # Coding Dojo Meeting Notes
 
+## 2025-02-11
+- Participants: Saeed, Tasneem, Nir
+- We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
+- We refactored the unit tests, now we have only one with all the test cases.
+- We refactored the main class and moved several conditions to private methods.
+- Next session
+  - We will continue with this kata.
+  - We try to clean up the conditions more and move more of them to the private methods
+  - We thought IncreaseQuality and DecreaseQuality can eventually become one method
+
 ## 2025-02-04
 - Participants: Saeed, Tasneem, Mark
 - We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
