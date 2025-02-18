@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-02-18
+- Participants: Saeed, Tasneem, Nir
+- We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
+- Did more refactoring on the main class.
+- Now the challenge is how to move the SellIn < 0 condition to private methods without breaking the rule for double decrease of quality after SellIn < 0.
+- Next session:
+   - We reverted to the last green and we are going to continue with simplifying the conditions.
+   - Tasneem suggested that in the decrease quality method, we can consider double decrease for SellIn < 0.
+    
 ## 2025-02-11
 - Participants: Saeed, Tasneem, Nir
 - We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
