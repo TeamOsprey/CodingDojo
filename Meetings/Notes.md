@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-02-25
+- Participants: Saeed, Tasneem, Mark, Richard
+- We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
+- We noticed we are moissing some edge cases and our tests were sometimes false positive 
+- Did more refactoring on the main class and added more test cases.
+- Next session
+  - Mark suggested we could flip the first condition to check when to increase the quality, instead of decrease quality
+  - We can push the conditions for SellIn < 0 and Aged Brie to DecreaseQuality method
+    
 ## 2025-02-18
 - Participants: Saeed, Tasneem, Nir
 - We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
