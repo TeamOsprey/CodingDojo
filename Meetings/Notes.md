@@ -2,12 +2,11 @@
 
 ## 2025-02-25
 - Participants: Saeed, Tasneem, Mark, Richard
-- We continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY)
-- We noticed we are moissing some edge cases and our tests were sometimes false positive 
-- Did more refactoring on the main class and added more test cases.
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), identified missing edge cases, and addressed false positives in tests.
+- Made improvements to the main class and added more test cases.
 - Next session
-  - Mark suggested we could flip the first condition to check when to increase the quality, instead of decrease quality
-  - We can push the conditions for SellIn < 0 and Aged Brie to DecreaseQuality method
+  - Mark suggested flipping the first condition to check when to increase the quality instead of decreasing it.
+  - Consider pushing the conditions for SellIn < 0 and Aged Brie to the DecreaseQuality method.
     
 ## 2025-02-18
 - Participants: Saeed, Tasneem, Nir
