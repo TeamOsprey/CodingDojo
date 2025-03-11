@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2025-03-11
+- Participants: Saeed, Tasneem, Mark, Nir
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and cleaned up the main class.The main method (UpdateQuality) is now free of any if clauses.
+- We also cleaned up DecreaseQuality method, preparing it for polymorphism by making it ready to be overridden in subclasses.
+- Next session
+  - Apply a similar approach to the IncreaseQuality method, preparing it for extraction and overriding in new subclasses. 
+
 ## 2025-02-25
 - Participants: Saeed, Tasneem, Mark, Richard
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), identified missing edge cases, and addressed false positives in tests.
