@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-03-25
+- Participants: Saeed, Tasneem, Nir
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and strted adding subclasses.
+- We had some challenges defining and using an abstract calss in C#
+- We added IProduct abstract class and AgedBrie subclass
+- Next session:
+  - We should start with fixing the failing unit tests
+  - We should implement the rest of subclasses
+    
 ## 2025-03-11
 - Participants: Saeed, Tasneem, Mark, Nir
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and cleaned up the main class.The main method (UpdateQuality) is now free of any if clauses.
