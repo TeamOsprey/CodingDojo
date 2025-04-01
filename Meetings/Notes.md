@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2025-04-01
+- Participants: Saeed, Tasneem, Mark
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and added more subclasses.
+- Next session:
+  - We might add a new factory class that create an instance of a subclass based on the name of the item then returns an IProduct object
+  - We can create UpdateQuality in IProduct and move the calls to the three methods into it
+    
 ## 2025-03-25
 - Participants: Saeed, Tasneem, Nir
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and strted adding subclasses.
