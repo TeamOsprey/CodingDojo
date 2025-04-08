@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-04-08
+- Participants: Saeed, Tasneem, Mark
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and finished refactoring.
+- Next session:
+  - Add a subclass for Conjured item
+  - Discuss a posibility for more refactoring (maybe redusing the number of classes)
+  - Watch Gilded Rose kata's video by Emily Bache
+ 
 ## 2025-04-01
 - Participants: Saeed, Tasneem, Mark
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and added more subclasses.
