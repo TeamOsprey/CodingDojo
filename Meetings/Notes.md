@@ -1,6 +1,14 @@
 # Coding Dojo Meeting Notes
 
 ## 2025-04-08
+- Participants: Saeed, Tasneem
+- Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and added Conjured item.
+- We discussed the posibility of removing IProduct and moving the logic to Item. That way the subclasses will implement Item, instead of IProduct.
+- We talked about Approval Testing and finding a way to try it in one of our future sessions.
+- Next session:
+  - We will start a new kata
+    
+## 2025-04-08
 - Participants: Saeed, Tasneem, Mark
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and finished refactoring.
 - Next session:
