@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2025-05-13
+- Participants: Saeed, Tasneem, Mark
+- We watched Gilded Rose Kata video and discussed Approval Test: https://youtu.be/vMww6pV6P7s
+- We decided to try Approval Test next week and found a free Test Coverage tool to use: Free Code Coverage
+- If we will be able to configure our visual studios by next week, we can do a kata on Approval Test
+  
 ## 2025-04-08
 - Participants: Saeed, Tasneem
 - Continued working on [Gilded Rose](https://cyber-dojo.org/kata/edit/ZY7fJY), and added Conjured item.
