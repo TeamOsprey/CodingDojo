@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-06-10
+- Participants: Saeed, Tasneem, Mark
+- We started working on Gilded Rose kata, this time with Approval Test.
+- Most of our time was spent on configuring and understanding the new method of collaborative development, using VS' Live, and FCC tools, and also figuring out how to use Approval Test.
+- Next session:
+  - We will continue the exercise and will try Emily Bache's method of elevating the if condition
+  - We also agreed to watch Emily Bache's video about Kent Beck's Desiderata
+    
 ## 2025-05-13
 - Participants: Saeed, Tasneem, Mark
 - We watched Gilded Rose Kata video and discussed Approval Test: https://youtu.be/vMww6pV6P7s
