@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2025-06-17
+- Participants: Saeed, Tasneem, Mark
+- We started working on Gilded Rose kata, this time with Approval Test.
+- Next session
+  - We can start by watching Emily Bache's explanation of [lift up conditional](https://youtu.be/OdnV8hc9L7I?si=yp-q0WSZ3OUmZA9a&t=814) method for refactoring.
 ## 2025-06-10
 - Participants: Saeed, Tasneem, Mark
 - We started working on Gilded Rose kata, this time with Approval Test.
