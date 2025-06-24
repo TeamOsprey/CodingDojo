@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-06-24
+- Participants: Saeed, Tasneem, Mark, Richard
+- We watched the lift up condition section of Emily Bache video and tried to follow the same method during our practice.
+- We ran into an issue which seems to be related to picking the wrong condition to lift up.
+- The condition we selected was "Quality < 50" and since Quality changes within the code, lifting up this condition broke the code.
+- Next session:
+  - We need to discuss and research on how to choose the right condition to lift up 
+  - Mark shared [this link](https://sammancoaching.org/learning_hours/refactoring/lift_up_conditional.html) which might have the answer.
+    
 ## 2025-06-17
 - Participants: Saeed, Tasneem, Mark
 - We started working on Gilded Rose kata, this time with Approval Test.
