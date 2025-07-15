@@ -1,5 +1,9 @@
 # Coding Dojo Meeting Notes
-
+## 2025-07-15
+- Participants: Saeed, Tasneem, Mark, Richard
+- We reviewed the article from our previous session and identified a key insight: the importance of selecting a condition that can be isolated.
+- We extracted one such condition and refactored the code accordingly. However, we're still uncertain about the next steps. To gain further clarity, we’ve decided to rewatch Emily Bache’s video for guidance.
+  
 ## 2025-06-24
 - Participants: Saeed, Tasneem, Mark, Richard
 - We watched the lift up condition section of Emily Bache video and tried to follow the same method during our practice.
