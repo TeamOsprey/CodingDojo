@@ -1,4 +1,11 @@
 # Coding Dojo Meeting Notes
+
+## 2025-07-29
+- Participants: Saeed, Tasneem, Mark, Richard
+- We watched Emily Bache's vido (link under 2025-06-17) and found our mistake
+- We started from the original code again and lifted two conditions
+- We left the code at the phase where clean up needs to be done based on the result of the code coverage tool
+  
 ## 2025-07-15
 - Participants: Saeed, Tasneem, Mark, Richard
 - We reviewed the article from our previous session and identified a key insight: the importance of selecting a condition that can be isolated.
