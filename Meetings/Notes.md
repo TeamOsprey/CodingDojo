@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2025-08-05
+- Participants: Saeed, Tasneem, Richard
+- We finishded lifting up all conditions.
+- Next session: we will continue with refactoring the code to move the logic to seperate classes for each item type.
+  
 ## 2025-07-29
 - Participants: Saeed, Tasneem, Richard
 - We watched Emily Bache's vido (link under 2025-06-17) and found our mistake
