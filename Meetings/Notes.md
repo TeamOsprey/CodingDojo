@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+
+## 2025-09-02
+- Participants: Saeed, Tasneem, Mark
+- We worked on refacroring and following factory design pattern.
+- We ended the session with a bug caused by the changes we made to Item class. Next week we will start by looking into this issue.
+
 ## 2025-08-05
 - Participants: Saeed, Tasneem, Richard
 - We finishded lifting up all conditions.
