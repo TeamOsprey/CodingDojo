@@ -1,6 +1,12 @@
 # Coding Dojo Meeting Notes
 
 
+## 2025-09-09
+- Participants: Saeed, Tasneem, Mark, Richard, Joel
+- We continued with refacroring and following factory design pattern.
+- We ended in red which seems to be related to original Items list not being updated.
+- We talked about Strangler Pattern and how we could have followed that to stay in green while refactoring the code to implement Factory Pattern.
+  
 ## 2025-09-02
 - Participants: Saeed, Tasneem, Mark
 - We worked on refacroring and following factory design pattern.
