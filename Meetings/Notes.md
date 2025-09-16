@@ -1,5 +1,9 @@
 # Coding Dojo Meeting Notes
 
+## 2025-09-16
+- Participants: Saeed, Tasneem, Mark, Joel
+- We completed refactoring of Gilded Rose kata
+- We compared our solution with Emily Bache's and the main difference seems to be that Item was set as an abtract while we created a new interface called IProduct
 
 ## 2025-09-09
 - Participants: Saeed, Tasneem, Mark, Richard, Joel
