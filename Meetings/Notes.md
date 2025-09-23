@@ -4,7 +4,7 @@
 - Participants: Saeed, Tasneem, Mark, Joel, Richard
 - We started working on refactoring Yahtzee, using Strangler Pattern
 - Mark brought this up that to follow the Strangler Pattern we need to build the facade first and update the code to use Facade class for all methods
-- We need to find a way to stay in track with keeping the tests updated
+- We need to find a way to stay on track to keep the tests updated, making sure they are using the facade class
   
 ## 2025-09-16
 - Participants: Saeed, Tasneem, Mark, Joel
