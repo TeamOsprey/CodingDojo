@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2025-09-23
+- Participants: Saeed, Tasneem, Mark, Joel, Richard
+- We started working on refactoring Yahtzee, using Strangler Pattern
+- Mark brought this up that to follow the Strangler Pattern we need to build the facade first and update the code to use Facade class for all methods
+- We need to find a way to stay in track with keeping the tests updated
+  
 ## 2025-09-16
 - Participants: Saeed, Tasneem, Mark, Joel
 - We completed refactoring of Gilded Rose kata
