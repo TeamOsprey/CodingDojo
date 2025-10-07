@@ -3,7 +3,8 @@
 ## 2025-10-07
 - Participants: Saeed, Tasneem, Mark, Joel
 - We continued with Strangler Pattern: https://cyber-dojo.org/kata/edit/JjWSJd
-- We ended in Green. We think for the next session we will start with renaming and polishing Count method in YahtzeeNew class.
+- We ended in Green. But there are two dead methods to clean up.
+- We think for the next session we will start with renaming and polishing Count method in YahtzeeNew class.
   
 ## 2025-09-23
 - Participants: Saeed, Tasneem, Mark, Joel, Richard
