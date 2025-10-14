@@ -6,7 +6,13 @@
 - We ended in RED.
 - We are working on refactornig ScorePair in YahtzeeNew class.
 - We looked into Linq methods. We should be able to either use Count or ToLookup but we will need to discuss it further next week.
-  
+- ObsoleteAttribute: Consider adding the ObsoleteAttribute to YahtzeeOld methods that have been migrated to YahtzeeNew, and for each
+  additional method to migrate do the following:
+  - 1. Add ObsoleteAttribute to the next YahtzeeOld method you want to migrate, and run the tests and expect a Warning in the output
+  - 2. Point the facade to the corresponding YahtzeeNew method and run the tests to verify that the Warning has gone away
+  - 3. Repeat until all methods are migrated, and then add ObsoleteAttribute at the class level to the YahtzeeOld class
+       and run the tests to verify there still are no Warnings   
+
 ## 2025-10-07
 - Participants: Saeed, Tasneem, Mark, Joel
 - We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
