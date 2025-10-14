@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2025-10-14
+- Participants: Saeed, Tasneem, Mark, Joel
+- We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
+- We ended in RED.
+- We are working on refactornig ScorePair in YahtzeeNew class.
+- We looked into Linq methods. We should be able to either use Count or ToLookup but we will need to discuss it further next week.
+  
 ## 2025-10-07
 - Participants: Saeed, Tasneem, Mark, Joel
 - We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
