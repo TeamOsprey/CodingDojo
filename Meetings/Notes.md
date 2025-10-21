@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-10-21
+- Participants: Saeed, Tasneem, Joel
+- We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
+- Only two methods left to migrate
+- We started using Obsolete attribute as suggested by Joel in previous session
+- We discussed whether to keep or remove facade class at the end. As per Strangler Pattern the facade class is removed at the end.
+- Next session:
+  - Finish Yahtzee kata, retrospect, then choose a new kata
+     
 ## 2025-10-14
 - Participants: Saeed, Tasneem, Mark, Joel
 - We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
