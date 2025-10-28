@@ -1,5 +1,18 @@
 # Coding Dojo Meeting Notes
 
+## 2025-10-28
+- Participants: Saeed, Mark
+- Why the Facade Must Be Removed?
+  
+  The facade serves as a routing mechanism during the transition period, but keeping it permanently introduces unnecessary complexity and potential performance bottlenecks. The learning content from the O'Reilly platform emphasizes several key reasons for removal:
+  
+  Avoiding Single Points of Failure: The facade can become a bottleneck if left in place permanently. As noted in TypeScript Microservices, "The facade or the proxy shouldn't be a single point of failure or bottleneck".
+  
+  Maintaining System Simplicity: Once all functionality has been migrated to the new system, the facade adds unnecessary architectural complexity. The goal is to achieve a clean, modern architecture without legacy routing layers.
+  
+  Performance Optimization: Removing the facade eliminates an additional network hop and processing layer, improving overall system performance.
+
+
 ## 2025-10-21
 - Participants: Saeed, Tasneem, Joel
 - We continued with Strangler Pattern, working on [Yahtzee kata](https://cyber-dojo.org/kata/edit/JjWSJd)
