@@ -2,6 +2,7 @@
 
 ## 2025-10-28
 - Participants: Saeed, Mark, Tasneem
+- We completed Strangler Pattern (Yahtzee) kata
 - Why the Facade Must Be Removed?
   
   The facade serves as a routing mechanism during the transition period, but keeping it permanently introduces unnecessary complexity and potential performance bottlenecks. The learning content from the O'Reilly platform emphasizes several key reasons for removal:
@@ -12,6 +13,9 @@
   
   Performance Optimization: Removing the facade eliminates an additional network hop and processing layer, improving overall system performance.
 
+- We reviewed Anti-Corruption Layer Pattern as a candidate to work on next
+- Next session:
+  - decide to look into a diffrent refactoring pattern or select a kata from Cyber-Dojo website
 
 ## 2025-10-21
 - Participants: Saeed, Tasneem, Joel
