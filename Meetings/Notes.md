@@ -1,7 +1,7 @@
 # Coding Dojo Meeting Notes
 
 ## 2025-10-28
-- Participants: Saeed, Mark
+- Participants: Saeed, Mark, Tasneem
 - Why the Facade Must Be Removed?
   
   The facade serves as a routing mechanism during the transition period, but keeping it permanently introduces unnecessary complexity and potential performance bottlenecks. The learning content from the O'Reilly platform emphasizes several key reasons for removal:
