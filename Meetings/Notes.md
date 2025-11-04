@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2025-11-04
+- Participants: Saeed, Mark, Tasneem
+- We started working on a new kata from Cyber-Dojo, [ABC Blocks](https://cyber-dojo.org/kata/edit/WrZlNx)
+- Next session:
+  - We will continue on and try to complete the kata
+    
 ## 2025-10-28
 - Participants: Saeed, Mark, Tasneem
 - We completed Strangler Pattern (Yahtzee) kata
