@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2025-11-18
+- Participants: Saeed, Mark, Tasneem, Joel
+- We continued working on ABC Blocks kata
+- We ran into some challenges due to use of static variables
+- Joel shared some thoughts on what to change to make the code thread-safe:
+  "My thought at the end was to consider the following:
+
+  Having blockList as a static field isn't threadsafe. There are multiple ways to make it threadsafe, the most straightforward being to make it a local variable which gets passed as a parameter to whatever methods need it. (It's also possible to use locks, though that is a bit more complicated and can have performance issues. And there are other ways, too...)"
+
 ## 2025-11-04
 - Participants: Saeed, Mark, Tasneem
 - We started working on a new kata from Cyber-Dojo, [ABC Blocks](https://cyber-dojo.org/kata/edit/WrZlNx)
