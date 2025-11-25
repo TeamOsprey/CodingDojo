@@ -6,6 +6,7 @@
 - Next week:
   - We can work on one of the [Design Pattern Katas of Codewars](https://www.codewars.com/collections/design-patterns)
   - Or we can try katas from [codurance website](https://www.codurance.com/katas/tag/design-patterns)
+  - Or try a random one from [Neal Ford's architectural katas](https://fundamentalsofsoftwarearchitecture.com/katas/)
 
 ## 2025-11-18
 - Participants: Saeed, Mark, Tasneem, Joel
