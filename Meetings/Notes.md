@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2025-11-25
+- Participants: Saeed, Mark, Tasneem, Joel
+- We completed ABC Blocks kata
+- Next week:
+  - We can work on one of the [Design Pattern Katas of Codewars](https://www.codewars.com/collections/design-patterns)
+  - Or we can try katas from [codurance website](https://www.codurance.com/katas/tag/design-patterns)
+
 ## 2025-11-18
 - Participants: Saeed, Mark, Tasneem, Joel
 - We continued working on ABC Blocks kata
