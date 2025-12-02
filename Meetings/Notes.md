@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-12-02
+- Participants: Mark, Tasneem, Joel
+- We completed a Decorator Pattern kata 
+  - We copied the kata from here: https://www.codewars.com/kata/5682e545fb263ecf7b000069
+  - Into a readme.txt in cyber-dojo here: https://cyber-dojo.org/kata/edit/4yS3gf
+- Next week:
+  - Consider watching the video provided with the kata (https://www.codewars.com/kata/5682e545fb263ecf7b000069) and see if we coded the pattern similarly to the way the author did
+  
 ## 2025-11-25
 - Participants: Saeed, Mark, Tasneem, Joel
 - We completed ABC Blocks kata
