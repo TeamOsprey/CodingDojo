@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2025-12-09
+- Participants: Saeed, Tasneem, Joel
+- We completed an Adapter Pattern kata 
+  - We copied the kata from here: https://www.codewars.com/kata/56919e637b2b971492000036
+  - Into a readme.txt in cyber-dojo here: https://cyber-dojo.org/kata/edit/gL0k0y
+  - Next week:
+    - We can review Adapter patter one more time then work on the next one
+      
 ## 2025-12-02
 - Participants: Mark, Tasneem, Joel
 - We completed a Decorator Pattern kata 
