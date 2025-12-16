@@ -1,5 +1,28 @@
 # Coding Dojo Meeting Notes
 
+## 2025-12-16
+- Participants: Saeed, Joel, Mark
+- We looked into Facade Design Pattern.
+- With help of Copilot we created a kata for Facade Pattern: https://cyber-dojo.org/kata/edit/bTfT58
+- A question was raised about the difference between an API and a Facade class:
+  - The Key Differences:
+    
+    __1. Purpose__
+      - API: Expose functionality
+      - Facade: Simplify functionality
+    
+    __2. Scope__
+      - API: Can be huge, detailed, low‑level
+      - Facade: Intentionally small and high‑level
+    
+    __3. Audience__
+      - API: For developers who need full control
+      - Facade: For users who want easy, streamlined operations
+    
+    __4. Complexity__
+      - API: May require many steps to perform a task
+      - Facade: Wraps those steps into one method call
+  
 ## 2025-12-09
 - Participants: Saeed, Tasneem, Joel
 - We completed an Adapter Pattern kata 
