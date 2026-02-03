@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2026-02-03
+- Participants: Saeed, Tasneem
+- We reviewed Bridge Design Pattern
+- We watched this video: https://www.youtube.com/watch?v=88kAIisOiYs&t=119s
+- We created a kata with help of AI: https://cyber-dojo.org/kata/edit/jGneMq
+- Next week we will continue to finish this kata
+  
 ## 2025-12-16
 - Participants: Saeed, Joel, Mark
 - We looked into Facade Design Pattern.
