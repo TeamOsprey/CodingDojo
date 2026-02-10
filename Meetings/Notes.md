@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2026-02-10
+- Participants: Saeed, Tasneem
+- We completed Bridge Design Pattern kata: https://cyber-dojo.org/kata/edit/jGneMq
+- Next session we are going to work on Composite Pattern. We will also check if this pattern can be used in Jobs in NSIFTA.  
+
 ## 2026-02-03
 - Participants: Saeed, Tasneem
 - We reviewed Bridge Design Pattern
