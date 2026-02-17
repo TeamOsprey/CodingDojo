@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-02-17
+- Participants: Saeed, Tasneem
+- We watched a video about Composite Pattern: https://www.youtube.com/watch?v=oo9AsGqnisk
+- We started working on this kata: [Mini UI Tree](https://cyber-dojo.org/kata/edit/skcS1h)
+- Next session we are going to continue with the Composite Pattern kata.
+
 ## 2026-02-10
 - Participants: Saeed, Tasneem
 - We completed Bridge Design Pattern kata: https://cyber-dojo.org/kata/edit/jGneMq
