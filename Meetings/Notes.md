@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-03-03
+- Participants: Saeed, Tasneem, Mark
+- We watched last week's video again
+- We are very close but didn't finish the kata
+- Next week we will decide whether we want to complete Mini UI kata or start a new kata
+  
 ## 2026-02-17
 - Participants: Saeed, Tasneem
 - We watched a video about Composite Pattern: https://www.youtube.com/watch?v=oo9AsGqnisk
