@@ -1,5 +1,15 @@
 # Coding Dojo Meeting Notes
 
+## 2026-03-10
+- Participants: Saeed, Tasneem, Mark
+- We looked into Proxy Design Pattern
+- We talkerd about the use of Proxy pattern in Entity Framework
+- We watched couple of videos on this pattern: 
+  - https://www.youtube.com/watch?v=t5zunzg2sr8
+  - https://www.youtube.com/watch?v=IsphOfVNWCc
+- We also started working on a Kata: https://cyber-dojo.org/kata/edit/ANeb5k
+- Next session: we will try to finish the kata.
+  
 ## 2026-03-03
 - Participants: Saeed, Tasneem, Mark
 - We watched last week's video again
