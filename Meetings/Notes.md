@@ -1,5 +1,13 @@
 # Coding Dojo Meeting Notes
 
+## 2026-03-24
+- Participants: Saeed, Tasneem, Mark
+- We continued working on Proxy Design Pattern kata
+- We improved the requirement, added more details to make it more clear
+- We noticed __System.Linq__ cannot be used and got it fixed by loading its DLL in cyber-dojo.sh file:
+
+  -r:/usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.3/System.Linq.dll \
+  
 ## 2026-03-10
 - Participants: Saeed, Tasneem, Mark
 - We looked into Proxy Design Pattern
