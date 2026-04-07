@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-04-07
+- Participants: Saeed, Tasneem, Mark
+- We finished working on Proxy Design Pattern kata
+- For next session we decided to learn more about orchestration of multi agents and use it for developing a simple application
+  - We might need to learn more about AGENTS.md and tools such as Agent Teams, and Conductor
+  
 ## 2026-03-24
 - Participants: Saeed, Tasneem, Mark
 - We continued working on Proxy Design Pattern kata
