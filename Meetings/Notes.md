@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-04-21
+- Participants: Saeed, Tasneem, Mark
+- We reviewed resources which could be used for learning how to setup agents and environments for SDLC by agents.
+- Here is one of the courses but requires GitHub Copilot subscription: https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/
+- Next week, we will continue our research and decide which option to proceed with
+  - Check this: https://github.com/samueltauil/copilot-config-workshop
 ## 2026-04-07
 - Participants: Saeed, Tasneem, Mark
 - We finished working on Proxy Design Pattern kata
