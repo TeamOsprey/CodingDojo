@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2026-05-12
+- Participants: Saeed, Tasneem, Mark
+- We started working on this workshop: https://github.com/samueltauil/copilot-config-workshop
+- We finished the first exercise and next session we will continue with "Architect Agent"
+
 ## 2026-04-21
 - Participants: Saeed, Tasneem, Mark
 - We reviewed resources which could be used for learning how to setup agents and environments for SDLC by agents.
