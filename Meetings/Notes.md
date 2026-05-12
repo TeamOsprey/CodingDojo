@@ -4,6 +4,7 @@
 - Participants: Saeed, Tasneem, Mark
 - We started working on this workshop: https://github.com/samueltauil/copilot-config-workshop
 - We finished the first exercise and next session we will continue with "Architect Agent"
+- Question for the next session: how .github folder was generated?
 
 ## 2026-04-21
 - Participants: Saeed, Tasneem, Mark
