@@ -3,7 +3,7 @@
 ## 2026-06-02
 - Participants: Saeed, Tasneem, Joel
 - We reviewed the previous session (exercise 1)
-- We started working on exercise 2, up to end of (Step 1)[https://github.com/samueltauil/copilot-config-workshop/blob/main/exercises/02-custom-instructions/README.md#step-1-create-the-custom-instructions-file]
+- We started working on exercise 2, up to end of [Step 1](https://github.com/samueltauil/copilot-config-workshop/blob/main/exercises/02-custom-instructions/README.md#step-1-create-the-custom-instructions-file)
   
 ## 2026-05-12
 - Participants: Saeed, Tasneem, Mark
