@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2026-06-09
+- Participants: Saeed, Tasneem, Joel, Mark, Uma
+- We finished exercise 2.
+- Next session we will start from Step 1 of exercise 3.
+  
 ## 2026-06-02
 - Participants: Saeed, Tasneem, Joel
 - We reviewed the previous session (exercise 1)
