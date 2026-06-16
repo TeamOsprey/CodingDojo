@@ -7,7 +7,7 @@
   - why toJSON is not implemented?
   - Why TypeError is not thrown in validation calss?
 - Next session: continue from __Models (src/models/task.js)__ under step 9
-  
+- Link to the repo we are working on: https://github.com/TeamOsprey/skills-copilot-config-workshop
 ## 2026-06-09
 - Participants: Saeed, Tasneem, Joel, Mark, Uma
 - We finished exercise 2.
