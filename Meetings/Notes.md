@@ -6,6 +6,7 @@
 - We ran into some questions:
   - why toJSON is not implemented?
   - Why TypeError is not thrown in validation calss?
+  - Can we ask the developer agent to create some unit tests? Or shall we wait until the next exercise?
 - Next session: continue from __Models (src/models/task.js)__ under step 9
 - Link to the repo we are working on: https://github.com/TeamOsprey/skills-copilot-config-workshop
 ## 2026-06-09
