@@ -1,6 +1,11 @@
 # Coding Dojo Meeting Notes
 
 ## 2026-06-16
+- Participants: Saeed, Tasneem, Joel, Mark, Uma
+- We focused on the missing codes from the last session, tried to fix the insstruction and asked the devleoper agent to add toJSON and validation in the constructor.
+- Next session: continue from __Models (src/models/task.js)__ under step 9
+  
+## 2026-06-16
 - Participants: Saeed, Richard, Joel, Mark, Uma
 - We are working on exercise #3 up to step 9.
 - We ran into some questions:
