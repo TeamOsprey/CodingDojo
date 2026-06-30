@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-06-30
+- Participants: Saeed, Tasneem, Joel, Uma
+- We started working on exercise #4 unp to step 1
+- Questions raised during this session:
+  - Is the prompt for a specific module or for all modules?
+  - Do we need to select Tester agent then call the prompt and provide the module as an argument to the prompt file?
 ## 2026-06-16
 - Participants: Saeed, Tasneem, Joel, Mark, Uma
 - We focused on the missing codes from the last session, tried to fix the insstruction and asked the devleoper agent to add toJSON and validation in the constructor.
