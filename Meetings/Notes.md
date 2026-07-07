@@ -1,11 +1,21 @@
 # Coding Dojo Meeting Notes
 
+## 2026-07-07
+- Participants: Saeed, Tasneem, Joel, Uma, Richard
+- We finished exercise #4
+- Question:
+  - Could allowing the Tester agent to fix code without access to the Developer agent's instructions result in changes that do not comply with those instructions?
+- Next session: Exercise #5
+   
 ## 2026-06-30
 - Participants: Saeed, Tasneem, Joel, Uma
-- We started working on exercise #4 unp to step 1
+- We started working on exercise #4 up to step 1
 - Questions raised during this session:
   - Is the prompt for a specific module or for all modules?
+    - A: When calling a test prompt file the test module is passed as an argument.
   - Do we need to select Tester agent then call the prompt and provide the module as an argument to the prompt file?
+    - No, in the prompt file it is set to pass the prompt to the Tester agent.
+
 ## 2026-06-16
 - Participants: Saeed, Tasneem, Joel, Mark, Uma
 - We focused on the missing codes from the last session, tried to fix the insstruction and asked the devleoper agent to add toJSON and validation in the constructor.
