@@ -5,7 +5,7 @@
 - We started working on Exercise #5 and nearly completed it.
 - We encountered an issue while creating the pull request. We ultimately created it through the GitHub website, although the problem may have been caused by the chat session not being authenticated to the repository when the prompt was submitted.
 - We completed Exercise #5, but ran into an issue at the end of Step 3, "Verify the colored output works." The output does not appear to be correct, as all tasks are displayed in green regardless of their priority.
--Next session: we will begin by investigating and fixing the color-related issue, and then move on to Exercise #6.
+- Next session: we will begin by investigating and fixing the color-related issue, and then move on to Exercise #6.
 
 ## 2026-07-07
 - Participants: Saeed, Tasneem, Joel, Uma, Richard, Mark
