@@ -1,5 +1,20 @@
 # Coding Dojo Meeting Notes
 
+## 2026-07-21
+- Participants: Joel, Uma, Tasneem
+- We completed working on Exercise #5:
+  - Co-pilot identified and fixed the issue with the color display by modifying color.js to unescape the ANSI status and priory properties. 
+  - We modified the copilot-instructions.md, updating the Dependencies section to allow Chalk.  
+- Next step:
+  - We didn't have the permission to push (currently commited on Joel's PC). So will have to do that, or reproduce the changes on another PC. We gave it this prompt:
+Currently, all the tasks are displaying green. We see extra characters in the status, which could be causing the problem. If you see a fix, then fix it.
+  - At the end of the session, we asked it to create a prompt for us for the next session if we need to recreate the changes, and it gave us this:
+    1. Inspect the demo entry point in src/index.js.
+    2. Inspect the color helpers in src/utils/colors.js.
+    3. Implement a formatter that renders task output as a human-readable multi-line string with colorized status and priority values.
+    4. Update the demo to use that formatter instead of printing the raw task object in a way that exposes ANSI escapes.
+    5. Add or update a regression test that confirms the formatter produces clean ANSI-colored output without literal escape-sequence text.
+
 ## 2026-07-14
 - Participants: Saeed, Mark, Joel, Uma
 - We started working on Exercise #5 and nearly completed it.
