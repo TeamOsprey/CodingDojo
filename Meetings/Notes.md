@@ -1,5 +1,16 @@
 # Coding Dojo Meeting Notes
 
+## 2026-08-04
+- Participants: Saeed, Mark
+- We recreated exercise #5 result, using the prompt provided in the previous note. However, we didn't work on copilot-instruction.md.
+- We completed exercise #6
+- We have a question about exercise #6. When packages are updated automatically, does GitHub run the tests
+- We reviewed exercise #7 but didn't start it.
+- Next session:
+  - Review the changes related to exercise #5, making sure nothing is missed comparing to what Joel stored on his machine.
+  - Review of what was done in exercise #6 to bring everyone up to speed
+  - Start exercise #7
+    
 ## 2026-07-21
 - Participants: Joel, Uma, Tasneem
 - We completed working on Exercise #5:
