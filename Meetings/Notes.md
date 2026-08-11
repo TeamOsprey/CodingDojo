@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-08-11
+- Participants: Joel, Uma, Tasneem, Saeed, Mark
+- We are working on exercise # 7, step 3
+- Question: why the agent didn't wait for us to click on the buttons before performing the tasks (tasks were already done before the buttons are appeared).
+- Next session we will continue working on exercise # 7
+  
 ## 2026-08-04
 - Participants: Saeed, Mark
 - We recreated exercise #5 result, using the prompt provided in the previous note. However, we didn't work on copilot-instruction.md.
