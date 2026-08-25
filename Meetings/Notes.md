@@ -9,7 +9,7 @@
   - Practicing what we learned from GitHub Copilot workshop
     - on one of our old kata codebases
     - on Reversi project
-  - Learning and trying OpenSpec on an existing application
+  - Learning and trying [OpenSpec](https://www.conduction.nl/academy/openspec-tutorial-1-what-is-openspec/) on an existing application
   - How to create new skills for agents
     
 ## 2026-08-18
