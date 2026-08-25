@@ -1,5 +1,17 @@
 # Coding Dojo Meeting Notes
 
+## 2026-08-25
+- Participants: Joel, Uma, Tasneem, Saeed, Mark
+- We finished the copilot workshop
+- We talked about the next session.
+- We agreed to work on Reversi project next to try what we learned in this workshop on enhancement of a legacy application. We also talked about possibility of using OpenSpec for this exercise.
+- __Roadmap__:
+  - Practicing what we learned from GitHub Copilot workshop
+    - on one of our old kata codebases
+    - on Reversi project
+  - Learning and trying OpenSpec on an existing application
+  - How to create new skills for agents
+    
 ## 2026-08-18
 - Participants: Joel, Uma, Tasneem, Saeed, Mark
 - We started by investigating the unexpected behavior of the agent from the previous session. We modified the prompt and submitted it to the orchestrator agent in a new branch we created specially for this test. However, the agent once again proceeded to execute the phases without waiting for us to click the required buttons.  
