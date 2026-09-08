@@ -1,5 +1,11 @@
 # Coding Dojo Meeting Notes
 
+## 2026-09-08
+- Participants: Joel, Uma, Tasneem, Saeed
+- We started working on [Reversi kata](../Katas/reversi-kata) using what we learned from the Agent workshop.
+- We created a planner agent which created the project plan based on the requirements.md file
+- Next session we will continue by creating the Architecture agent.
+   
 ## 2026-08-25
 - Participants: Joel, Uma, Tasneem, Saeed, Mark
 - We finished the copilot workshop
