@@ -33,15 +33,15 @@ Build a small .NET 10 console application that reads an 8x8 Reversi board and th
   - `Squares` (`Player?[,]`): counters on the board; `null` represents an empty square.
   - `IsInside(Position)` (`bool`): determines whether a coordinate is on the board.
   - `GetSquare(Position)` (`Player?`): returns the square content.
-- `GamePosition` class:
+- `GameSnapshot` class:
   - `Board` (`Board`): parsed board state.
   - `ActivePlayer` (`Player`): player whose legal moves are requested.
 - `MoveFinder` class:
   - `FindLegalMoves(Board, Player)` (`IReadOnlySet<Position>`): returns all legal destination squares.
 - `BoardParser` class:
-  - `Parse(IEnumerable<string>)` (`GamePosition`): validates and converts the nine input lines.
+  - `Parse(IEnumerable<string>)` (`GameSnapshot`): validates and converts the nine input lines.
 - `BoardRenderer` class:
-  - `Render(GamePosition, IReadOnlySet<Position>)` (`IEnumerable<string>`): emits the result board with `0` markers and the active player line.
+  - `Render(GameSnapshot, IReadOnlySet<Position>)` (`IEnumerable<string>`): emits the result board with `0` markers and the active player line.
 
 ## File Structure
 
@@ -53,7 +53,7 @@ src/
       Player.cs
       Position.cs
       Board.cs
-      GamePosition.cs
+      GameSnapshot.cs
     Application/
       BoardParser.cs
       MoveFinder.cs
@@ -71,7 +71,7 @@ For the current single-project kata, the production files can initially remain i
 
 1. Establish input and domain primitives.
    - Replace the starter output in `Program.cs` with standard-input orchestration.
-   - Add `Player`, `Position`, `Board`, and `GamePosition` with explicit board-boundary checks.
+   - Add `Player`, `Position`, `Board`, and `GameSnapshot` with explicit board-boundary checks.
    - Implement and test parsing and validation of the nine-line input format.
 
 2. Implement the legal-move rule.
