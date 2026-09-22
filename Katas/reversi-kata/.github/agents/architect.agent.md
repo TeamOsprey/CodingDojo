@@ -4,8 +4,8 @@ description: Reads a project plan and produces a detailed data schema and file s
 tools: ["edit", "search", "read"]
 handoffs: 
 - agent: developer
-  label: "Implement the feature"
-  prompt: "Read #file:docs/schema.md and implement the feature in src/."
+  label: "Implement the next user story"
+  prompt: "Read #file:docs/schema.md and #file:docs/user-stories.md and implement the next user story that hasn't been marked as done yet in src/. Mark the user story as done once implemented."
   send: false
 ---
 
