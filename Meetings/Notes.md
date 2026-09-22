@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2026-09-15
+- Participants: Joel, Uma, Tasneem, Saeed, Mark
+- We reviewed the project plan and asked the planner to make a change
+- We created the architect agent and asked it to generate the schema file
+- Questions:
+   - How can we instruct the developer to take a more incremental approach in development, developing one user story at a time? The implementation phase is in the project plan file but the developer agent is not instructed to use that file.
+   - Shall we ask the developer agent to read the project plan or shall we ask architect agent to add the instruction into the schema file?
+   - If the developer is not supposed to have access to all the project plan, shall we store the implementation phases/user stories into a separate file and let developer to access those files but no the whole project plan?
+  
 ## 2026-09-08
 - Participants: Joel, Uma, Tasneem, Saeed
 - We started working on [Reversi kata](../Katas/reversi-kata) using what we learned from the Agent workshop.
