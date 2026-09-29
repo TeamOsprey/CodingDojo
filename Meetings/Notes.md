@@ -1,6 +1,16 @@
 # Coding Dojo Meeting Notes
 
 ## 2026-09-22
+- Participants: Joel, Uma, Saeed
+- We added unit tests for the first user story
+- We went through couple of rounds of refatoring to make the unit tests more readable
+- Next session:
+  - We can add the following rules to one of the md files:
+    - Use NUnit
+    - Always add tests for any functions it creates
+    - Make the unit tests human readable, e.g. instead of using LINQ to generate inputs, use a hard coded array
+    - Split the user story to smaller chunks and generate the unit tests one chunk at a time
+## 2026-09-22
 - Participants: Joel, Uma, Tasneem, Saeed, Mark
 - We modified planner and architect agents to create user stories in a separate file and ask the developer to implement the user stories one at a time.
 - Our prompt to the developer agent: `develop the first user story. ask for confirmation before starting to develop the next user story.`
