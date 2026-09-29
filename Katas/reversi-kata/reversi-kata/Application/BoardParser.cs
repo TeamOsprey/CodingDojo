@@ -18,7 +18,7 @@ public sealed class BoardParser
         for (var row = 0; row < Board.Size; row++)
         {
             var boardRow = input[row];
-            if (boardRow.Length != Board.Size)
+            if (boardRow is null || boardRow.Length != Board.Size)
             {
                 throw new FormatException($"Board row {row + 1} must contain exactly eight characters.");
             }

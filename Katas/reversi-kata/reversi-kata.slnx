@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="reversi-kata/reversi-kata.csproj" />
+  <Project Path="tests/ReversiKata.Tests/ReversiKata.Tests.csproj" />
 </Solution>
