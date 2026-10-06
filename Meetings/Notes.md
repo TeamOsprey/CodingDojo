@@ -1,6 +1,17 @@
 # Coding Dojo Meeting Notes
 
 ## 2026-09-22
+- Participants: Joel, Uma, Saeed, Mark, Tasneem
+- We reviewed the changes we asked in past sessions
+- We asked the Copilot to generate the list based on the history of previous chats.
+  - Perhaps adding a retrospective agent to make a list of changes we asked during the session. 
+- Next session:
+  - Review the changes in MD files, research on what should be added to copilot-instructions.md and what goes to agent MD files.
+    - Update the instruction to ask the developer to stop after implementing each chunk to let us review the code before asking it ot continue.
+  - Asserting only "exactly" as the exception message could become issue when the same word is used in multiple exception messages.
+    - perhaps we can use exception types (derived from FormatExeption class) instead of the error messages.
+      
+## 2026-09-22
 - Participants: Joel, Uma, Saeed
 - We added unit tests for the first user story
 - We went through couple of rounds of refatoring to make the unit tests more readable
