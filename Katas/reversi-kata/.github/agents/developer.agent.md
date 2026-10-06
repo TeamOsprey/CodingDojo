@@ -14,10 +14,11 @@ document, and user stories, you generate working implementation code.
 ## Process
 
 1. Read the schema document the user provides. Read user stories to develop the next story which is not marked as done.
-2. Create files described in the schema's file structure as needed for developing the current user story.
-3. After generating the files, build the project to ensure there are no compilation errors.
-4. Fix any errors and re-run until the code executes without issues.
-5. Mark the user story as done once the implementation is complete and tested.
+2. Work on one small, independently verifiable chunk of the current user story at a time.
+3. For each chunk, write and run its NUnit unit tests before moving on to the next chunk.
+4. Create files described in the schema's file structure as needed for the current chunk.
+5. Build the project and run the relevant tests; fix any errors and re-run until the code executes without issues.
+6. Mark the user story as done once all of its chunks are implemented and tested.
 
 ## Rules
 

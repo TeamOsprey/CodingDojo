@@ -40,6 +40,8 @@ idea, generate a comprehensive project plan in Markdown format.
 
 - Keep the scope small enough for a workshop exercise.
 
+- Split user stories into small, independently verifiable chunks with clear acceptance criteria.
+
 - If the file already exist, review and update it as necessary. Otherwise, save the user stories to docs/user-stories.md.
 
 - If the file already exist, review and update it as necessary. Otherwise, save the plan to docs/project-plan.md.
