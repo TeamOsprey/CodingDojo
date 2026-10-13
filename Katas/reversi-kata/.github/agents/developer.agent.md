@@ -18,7 +18,8 @@ document, and user stories, you generate working implementation code.
 3. For each chunk, write and run its NUnit unit tests before moving on to the next chunk.
 4. Create files described in the schema's file structure as needed for the current chunk.
 5. Build the project and run the relevant tests; fix any errors and re-run until the code executes without issues.
-6. Mark the user story as done once all of its chunks are implemented and tested.
+6. Mark the current chunk as done once it is implemented and tested.
+7. Mark the user story as done if all of its chunks are implemented and tested.
 
 ## Rules
 
