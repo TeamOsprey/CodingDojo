@@ -1,5 +1,14 @@
 # Coding Dojo Meeting Notes
 
+## 2026-10-13
+- Participants: Joel, Uma, Saeed, Mark, Tasneem
+- We asked the developer agent to implement the story 2 following the new instruction, one chunk at a time.
+- Observations:
+  - It didn't clearly asked before starting to work on the next chunk
+  - Maybe we had to be more clear in our prompt, asking to implement the next chunk instead of the next story. Does that mean the prompt always override the instructions in markdown files?
+  - The new tests don't create the board the same way as parser tests did, using GameSnapshot.
+- Next session:
+  - We will ask the reason why Parser was not used in the new unit tests. And if we think that is necessary to keep the approach consistent on both unit test files, we will ask the agent to fix it.
 ## 2026-10-06
 - Participants: Joel, Uma, Saeed, Mark, Tasneem
 - We reviewed the changes we asked in past sessions
