@@ -1,6 +1,6 @@
 # Coding Dojo Meeting Notes
 
-## 2026-09-22
+## 2026-10-06
 - Participants: Joel, Uma, Saeed, Mark, Tasneem
 - We reviewed the changes we asked in past sessions
 - We asked the Copilot to generate the list based on the history of previous chats.
@@ -11,7 +11,7 @@
   - Asserting only "exactly" as the exception message could become issue when the same word is used in multiple exception messages.
     - perhaps we can use exception types (derived from FormatExeption class) instead of the error messages.
       
-## 2026-09-22
+## 2026-09-29
 - Participants: Joel, Uma, Saeed
 - We added unit tests for the first user story
 - We went through couple of rounds of refatoring to make the unit tests more readable
@@ -21,6 +21,7 @@
     - Always add tests for any functions it creates
     - Make the unit tests human readable, e.g. instead of using LINQ to generate inputs, use a hard coded array
     - Split the user story to smaller chunks and generate the unit tests one chunk at a time
+
 ## 2026-09-22
 - Participants: Joel, Uma, Tasneem, Saeed, Mark
 - We modified planner and architect agents to create user stories in a separate file and ask the developer to implement the user stories one at a time.
