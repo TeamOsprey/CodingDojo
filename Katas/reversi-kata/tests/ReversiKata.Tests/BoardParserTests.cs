@@ -25,27 +25,23 @@ public sealed class BoardParserTests
             ".......B"
         ];
         var lines = boardRows.Append(playerMarker).ToArray();
-        var expectedBoard = new ExpectedBoardBuilder()
-            .e().e().e().e().e().e().e().e().NewLine()
-            .e().B().e().e().e().e().e().e().NewLine()
-            .e().e().W().e().e().e().e().e().NewLine()
-            .e().e().e().B().e().e().e().e().NewLine()
-            .e().e().e().e().W().e().e().e().NewLine()
-            .e().e().e().e().e().B().e().e().NewLine()
-            .e().e().e().e().e().e().W().e().NewLine()
-            .e().e().e().e().e().e().e().B().Build();
+        string[] expectedBoard =
+        [
+            "........",
+            ".B......",
+            "..W.....",
+            "...B....",
+            "....W...",
+            ".....B..",
+            "......W.",
+            ".......B"
+        ];
 
         var actualSnapshot = _parser.Parse(lines);
+        string[] actualBoard = actualSnapshot.Board.ToString();
 
         Assert.That(actualSnapshot.ActivePlayer, Is.EqualTo(expectedPlayer));
-        for (var row = 0; row < Board.Size; row++)
-        {
-            for (var column = 0; column < Board.Size; column++)
-            {
-                var position = new Position(row, column);
-                Assert.That(actualSnapshot.Board.GetSquare(position), Is.EqualTo(expectedBoard[row, column]));
-            }
-        }
+        Assert.That(actualBoard, Is.EqualTo(expectedBoard));
     }
 
     [Test]
@@ -177,52 +173,6 @@ public sealed class BoardParserTests
         "........",
         "B"
     ];
-
-    private sealed class ExpectedBoardBuilder
-    {
-        private readonly Player?[,] _squares = new Player?[Board.Size, Board.Size];
-        private int _row;
-        private int _column;
-
-        public ExpectedBoardBuilder e() => AddSquare(null);
-
-        public ExpectedBoardBuilder B() => AddSquare(Player.Black);
-
-        public ExpectedBoardBuilder W() => AddSquare(Player.White);
-
-        public ExpectedBoardBuilder NewLine()
-        {
-            if (_column != Board.Size)
-            {
-                throw new AssertionException($"Expected {_column} squares in row {_row + 1}; expected {Board.Size}.");
-            }
-
-            _row++;
-            _column = 0;
-            return this;
-        }
-
-        public Player?[,] Build()
-        {
-            if (_row != Board.Size - 1 || _column != Board.Size)
-            {
-                throw new AssertionException("The expected board must contain exactly eight complete rows.");
-            }
-
-            return _squares;
-        }
-
-        private ExpectedBoardBuilder AddSquare(Player? player)
-        {
-            if (_row >= Board.Size || _column >= Board.Size)
-            {
-                throw new AssertionException("The expected board contains too many squares.");
-            }
-
-            _squares[_row, _column++] = player;
-            return this;
-        }
-    }
 
     private void AssertFormatError(IEnumerable<string> lines, string messagePart)
     {

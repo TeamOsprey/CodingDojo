@@ -16,6 +16,33 @@ public sealed class Board
 
     public Player?[,] Squares { get; }
 
+    public new string[] ToString() => ToString(null);
+
+    public string[] ToString(IReadOnlySet<Position>? legalMoves)
+    {
+        var rows = new string[Size];
+        for (var row = 0; row < Size; row++)
+        {
+            var squares = new char[Size];
+            for (var column = 0; column < Size; column++)
+            {
+                squares[column] = legalMoves?.Contains(new Position(row, column)) == true
+                    ? '0'
+                    : Squares[row, column] switch
+                    {
+                        Player.Black => 'B',
+                        Player.White => 'W',
+                        null => '.',
+                        _ => throw new InvalidOperationException("The board contains an invalid player.")
+                    };
+            }
+
+            rows[row] = new string(squares);
+        }
+
+        return rows;
+    }
+
     public bool IsInside(Position position) =>
         position.Row >= 0 && position.Row < Size &&
         position.Column >= 0 && position.Column < Size;

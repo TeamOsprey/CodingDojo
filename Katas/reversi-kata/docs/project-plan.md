@@ -13,6 +13,8 @@ Build a small .NET 10 console application that reads an 8x8 Reversi board and th
   - `Squares` (`Player?[,]`): counters on the board; `null` represents an empty square.
   - `IsInside(Position)` (`bool`): determines whether a coordinate is on the board.
   - `GetSquare(Position)` (`Player?`): returns the square content.
+  - `ToString()` (`string[]`): returns eight board rows using `.`, `B`, and `W`.
+  - `ToString(IReadOnlySet<Position>?)` (`string[]`): returns the board rows with supplied legal positions marked as `0`, without changing the board.
 - `GameSnapshot` class:
   - `Board` (`Board`): parsed board state.
   - `ActivePlayer` (`Player`): player whose legal moves are requested.
@@ -22,6 +24,18 @@ Build a small .NET 10 console application that reads an 8x8 Reversi board and th
   - `Parse(IEnumerable<string>)` (`GameSnapshot`): validates and converts the nine input lines.
 - `BoardRenderer` class:
   - `Render(GameSnapshot, IReadOnlySet<Position>)` (`IEnumerable<string>`): emits the result board with `0` markers and the active player line.
+
+## Unit Test Pattern
+
+Use NUnit and follow this pattern for all future board-based tests:
+
+1. Declare input as an explicit `string[]` containing eight board rows and a final `B` or `W` player marker. Obtain the snapshot by calling `BoardParser.Parse(lines)` rather than constructing the board with a test helper.
+2. Declare a separate, explicit `string[] expectedBoard` containing eight rows. Use `.`, `B`, and `W` for board contents and `0` for every expected legal move. Never generate expected rows from input or implementation results.
+3. For plain board assertions, obtain `actualBoard` from `snapshot.Board.ToString()`.
+4. For move assertions, obtain `actualMoves` from `MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer)`, then obtain `actualBoard` from `snapshot.Board.ToString(actualMoves)`. Keep marker rendering in `Board`, not in test helpers.
+5. Assert `Assert.That(actualBoard, Is.EqualTo(expectedBoard))`. Do not replace the visual expected board with a builder or coordinate list.
+
+Cover no-move cases with an explicit expected board containing no `0` markers. Preserve direct API tests for malformed input, constructor validation, and boundary behavior. Name actual results with the `actual` prefix and keep expected values independent of the implementation.
 
 ## File Structure
 

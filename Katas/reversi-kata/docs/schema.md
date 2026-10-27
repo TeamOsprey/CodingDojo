@@ -35,6 +35,12 @@
 - Public API:
   - `IsInside(Position position) -> bool`: returns true when the coordinate is in range.
   - `GetSquare(Position position) -> Player?`: returns the occupant of a square, or `null` for empty.
+  - `ToString() -> string[]`: returns eight rows using `.`, `B`, and `W`; explicitly hides `object.ToString()` because it returns an array rather than a single string.
+  - `ToString(IReadOnlySet<Position>? legalMoves) -> string[]`: returns the same rows with supplied legal positions marked as `0`. A null or empty set produces the plain board.
+- Rendering contract:
+  - Returns eight strings of eight characters, without an active-player line.
+  - Does not mutate the board or calculate legal moves; callers supply moves from `MoveFinder`.
+  - Owns marker rendering for board-based unit tests. Parse snapshots with `BoardParser.Parse`, declare expected rows independently, and compare `Board.ToString()` or `Board.ToString(actualMoves)` with the explicit expected string array.
 
 ### GameSnapshot
 - Type: class
