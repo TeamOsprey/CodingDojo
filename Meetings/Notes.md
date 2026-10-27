@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2026-10-27
+- Participants: Uma, Saeed, Mark, Tasneem
+- We made unit tests more readable by introducing a string array as the expected board.
+- We talked about how to generalize the instructions so we won't need to spend too much time customize the instructions for every project.
+- Next session
+  - We will start by trying a new prompt to implement the next chunk, and verify if it will follow the instruction and wait for our confirmation before continuing with implementation of the rest of chunks.
+
 ## 2026-10-13
 - Participants: Joel, Uma, Saeed, Mark, Tasneem
 - We asked the developer agent to implement the story 2 following the new instruction, one chunk at a time.
