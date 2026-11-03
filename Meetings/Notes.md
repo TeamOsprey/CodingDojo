@@ -1,5 +1,12 @@
 # Coding Dojo Meeting Notes
 
+## 2026-11-03
+- Participants: Uma, Saeed, Mark, Tasneem
+- We completed story 3.
+- We added a new chunk to user story 4.
+- Next session
+  - Complete user story 4.
+
 ## 2026-10-27
 - Participants: Uma, Saeed, Mark, Tasneem
 - We made unit tests more readable by introducing a string array as the expected board.
