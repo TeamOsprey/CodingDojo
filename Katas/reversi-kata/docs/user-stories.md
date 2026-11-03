@@ -14,10 +14,24 @@
        - Acceptance criteria: The evaluator detects captures along all four diagonal directions using the same enclosure rule, while retaining horizontal and vertical detection.
 
 3. As a player, I receive output in the same board format as the input.
-   - Acceptance criteria: Legal moves are written as `0`; existing board counters and empty squares remain unchanged.
-   - Acceptance criteria: The final output line repeats the active player marker.
-   - Acceptance criteria: The board from the requirements produces the four marked Black moves in the example output.
+   - [x] Chunk 1: Render the board rows in the input format.
+      - Acceptance criteria: Existing board counters and empty squares remain unchanged.
+   - [x] Chunk 2: Mark every legal move in the rendered board.
+      - Acceptance criteria: Legal moves are written as `0`.
+   - [x] Chunk 3: Include the active player marker in the output.
+      - Acceptance criteria: The final output line repeats the active player marker.
+   - [x] Chunk 4: Match the example output from the requirements.
+      - Acceptance criteria: The board from the requirements produces the four marked Black moves in the example output.
 
 4. As a kata participant, I can evolve the rule implementation with confidence.
-   - Acceptance criteria: Tests cover the example, all eight directions, edge and corner bounds, empty squares with no capture, and positions where one move captures along multiple directions.
+   - [x] Chunk 1: Test the example position.
+      - Acceptance criteria: Tests verify the four legal Black moves shown in the requirements example.
+   - [x] Chunk 2: Test captures in every direction.
+      - Acceptance criteria: Tests cover all eight directions.
+   - [x] Chunk 3: Test board bounds and positions with no capture.
+      - Acceptance criteria: Tests cover edge and corner bounds and empty squares with no capture.
+   - [ ] Chunk 4: Test capture of multiple contiguous opponent counters.
+      - Acceptance criteria: A move is marked legal when it brackets two or more contiguous opponent counters in one direction.
+   - [ ] Chunk 5: Test moves that capture along multiple directions.
+      - Acceptance criteria: Tests cover positions where one move captures along multiple directions.
    - Acceptance criteria: Production code has no external package dependencies.

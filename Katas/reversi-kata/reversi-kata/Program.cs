@@ -11,13 +11,11 @@ while ((line = Console.ReadLine()) is not null)
 try
 {
 	var snapshot = new BoardParser().Parse(lines);
-	Console.WriteLine($"Parsed {Board.Size}x{Board.Size} board for {snapshot.ActivePlayer}.");
 	var legalMoves = MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer);
-	var formattedMoves = legalMoves
-		.OrderBy(position => position.Row)
-		.ThenBy(position => position.Column)
-		.Select(position => $"({position.Row},{position.Column})");
-	Console.WriteLine($"Legal moves (row, column; zero-based): {string.Join(", ", formattedMoves)}");
+	foreach (var outputLine in BoardRenderer.Render(snapshot, legalMoves))
+	{
+		Console.WriteLine(outputLine);
+	}
 }
 catch (FormatException exception)
 {

@@ -42,6 +42,40 @@ public sealed class MoveFinderTests
     }
 
     [Test]
+    public void FindLegalMoves_CapturesMultipleContiguousOpponentCounters()
+    {
+        string[] lines =
+        [
+            "........",
+            "........",
+            "........",
+            ".WWB....",
+            "........",
+            "........",
+            "........",
+            "........",
+            "B"
+        ];
+        string[] expectedBoard =
+        [
+            "........",
+            "........",
+            "........",
+            "0WWB....",
+            "........",
+            "........",
+            "........",
+            "........"
+        ];
+        var snapshot = _parser.Parse(lines);
+
+        var actualMoves = MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer);
+        var actualBoard = snapshot.Board.ToString(actualMoves);
+
+        Assert.That(actualBoard, Is.EqualTo(expectedBoard));
+    }
+
+    [Test]
     public void FindLegalMoves_ExcludesEmptySquaresWithoutHorizontalCapture()
     {
         string[] lines =
@@ -66,6 +100,74 @@ public sealed class MoveFinderTests
             "........",
             "........",
             "........"
+        ];
+        var snapshot = _parser.Parse(lines);
+
+        var actualMoves = MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer);
+        var actualBoard = snapshot.Board.ToString(actualMoves);
+
+        Assert.That(actualBoard, Is.EqualTo(expectedBoard));
+    }
+
+    [Test]
+    public void FindLegalMoves_FindsCapturesAtBoardCorners()
+    {
+        string[] lines =
+        [
+            ".WB.....",
+            "........",
+            "........",
+            "........",
+            "........",
+            ".....B..",
+            "......W.",
+            "........",
+            "B"
+        ];
+        string[] expectedBoard =
+        [
+            "0WB.....",
+            "........",
+            "........",
+            "........",
+            "........",
+            ".....B..",
+            "......W.",
+            ".......0"
+        ];
+        var snapshot = _parser.Parse(lines);
+
+        var actualMoves = MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer);
+        var actualBoard = snapshot.Board.ToString(actualMoves);
+
+        Assert.That(actualBoard, Is.EqualTo(expectedBoard));
+    }
+
+    [Test]
+    public void FindLegalMoves_ExcludesEdgeSquaresWithoutBracketedOpponent()
+    {
+        string[] lines =
+        [
+            "W......W",
+            "........",
+            "........",
+            "....W...",
+            "........",
+            "........",
+            "........",
+            "W......W",
+            "B"
+        ];
+        string[] expectedBoard =
+        [
+            "W......W",
+            "........",
+            "........",
+            "....W...",
+            "........",
+            "........",
+            "........",
+            "W......W"
         ];
         var snapshot = _parser.Parse(lines);
 
