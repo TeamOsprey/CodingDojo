@@ -4,6 +4,10 @@
 - Participants: Uma, Saeed, Mark
 - We finished the last user story
 - We decided to use OpenSpec to continue with implementation of Reversi
+- Next session
+  - We will start by getting Reversi existing application up and running on our desktops
+  - Then we will setup OpenSpec on that project
+  - And we will talk about the next implementation we want to do
   
 ## 2026-11-03
 - Participants: Uma, Saeed, Mark, Tasneem
