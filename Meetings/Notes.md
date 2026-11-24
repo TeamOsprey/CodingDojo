@@ -1,5 +1,10 @@
 # Coding Dojo Meeting Notes
 
+## 2026-11-24
+- Participants: Uma, Saeed, Mark
+- We finished the last user story
+- We decided to use OpenSpec to continue with implementation of Reversi
+  
 ## 2026-11-03
 - Participants: Uma, Saeed, Mark, Tasneem
 - We completed story 3.
