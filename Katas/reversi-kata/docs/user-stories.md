@@ -30,8 +30,8 @@
       - Acceptance criteria: Tests cover all eight directions.
    - [x] Chunk 3: Test board bounds and positions with no capture.
       - Acceptance criteria: Tests cover edge and corner bounds and empty squares with no capture.
-   - [ ] Chunk 4: Test capture of multiple contiguous opponent counters.
+   - [x] Chunk 4: Test capture of multiple contiguous opponent counters.
       - Acceptance criteria: A move is marked legal when it brackets two or more contiguous opponent counters in one direction.
-   - [ ] Chunk 5: Test moves that capture along multiple directions.
+   - [x] Chunk 5: Test moves that capture along multiple directions.
       - Acceptance criteria: Tests cover positions where one move captures along multiple directions.
    - Acceptance criteria: Production code has no external package dependencies.

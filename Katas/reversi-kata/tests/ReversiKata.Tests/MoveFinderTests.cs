@@ -212,6 +212,40 @@ public sealed class MoveFinderTests
     }
 
     [Test]
+    public void FindLegalMoves_FindsMoveCapturingAlongMultipleDirections()
+    {
+        string[] lines =
+        [
+            "........",
+            ".B.B.B..",
+            "..WWW...",
+            ".BW.WB..",
+            "..WWW...",
+            ".B.B.B..",
+            "........",
+            "........",
+            "B"
+        ];
+        string[] expectedBoard =
+        [
+            "........",
+            ".B.B.B..",
+            "..WWW...",
+            ".BW0WB..",
+            "..WWW...",
+            ".B.B.B..",
+            "........",
+            "........"
+        ];
+        var snapshot = _parser.Parse(lines);
+
+        var actualMoves = MoveFinder.FindLegalMoves(snapshot.Board, snapshot.ActivePlayer);
+        var actualBoard = snapshot.Board.ToString(actualMoves);
+
+        Assert.That(actualBoard, Is.EqualTo(expectedBoard));
+    }
+
+    [Test]
     public void FindLegalMoves_FindsDiagonalCapturesInAllFourDirections()
     {
         string[] lines =
